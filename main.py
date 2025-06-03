@@ -5,7 +5,6 @@ import asyncio
 import datetime
 import platform
 from keep_alive import keep_alive
-import os
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='!', intents=intents)
@@ -130,4 +129,4 @@ async def botinfo(ctx):
     await ctx.send(embed=embed)
 
 keep_alive()
-bot.run(os.getenv("DISCORD_TOKEN"))
+bot.run("MTM3Nzk2NDQxMzAyNTI1NTQ5Ng.GWAJuk.Bs-7rJgfdBz2jto0--G8GOyc0AowESQCxU3JbQ")
